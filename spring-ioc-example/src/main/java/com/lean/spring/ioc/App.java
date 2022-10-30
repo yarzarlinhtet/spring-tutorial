@@ -16,11 +16,17 @@ public class App {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Person person = context.getBean("myPerson", Person.class);
+//        Person person = context.getBean("myPerson", Person.class);
+//
+//        Person person1 = context.getBean("myPerson2", Person.class);
+//
+//        System.out.println(person);
+//        System.out.println(person1);
 
-        Person person1 = context.getBean("myPerson2", Person.class);
+        Car car = context.getBean("teslaCar", Car.class);
 
-        System.out.println(person);
-        System.out.println(person1);
+        car.enginInfo();
+
+
     }
 }
