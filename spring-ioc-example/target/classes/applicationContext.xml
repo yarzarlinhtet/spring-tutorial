@@ -26,6 +26,7 @@
 
     <bean id="setTeslaCar" class="com.learn.spring.ioc.di.setter.TeslaCar">
         <property name="engin" ref="electricEngin" />
+        <property name="model" value="tesla s3"/>
     </bean>
 
 
