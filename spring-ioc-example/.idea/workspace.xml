@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a78ba2a7-f6ba-4b15-a2af-63bd74096675" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/properties/xml/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties-applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lean/spring/ioc/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lean/spring/ioc/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/setter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/setter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/setter/TeslaCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/setter/TeslaCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lean/spring/ioc/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lean/spring/ioc/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/spring/ioc/di/setter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/spring/ioc/di/setter/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/spring/ioc/di/setter/TeslaCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/spring/ioc/di/setter/TeslaCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -53,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/ubuntu/spring-tutorial/spring-ioc-example/src/main/resources",
+    "last_opened_file_path": "/home/ubuntu/spring-tutorial/spring-ioc-example/src/main/java/com/learn/spring/bean/lifecycle/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -62,16 +54,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/learn/spring/bean/lifecycle/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/learn/spring/bean/lifecycle" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/learn/spring/properties/java" />
       <recent name="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/javaConfig" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/annotation" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/setter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypeScope">
+  <component name="RunManager" selected="Application.com.learn.spring.bean.lifecycle.java.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.spring.properties.java.Main" />
+      <module name="spring-ioc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.spring.properties.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrototypeScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.spring.bean.scope.PrototypeScope" />
       <module name="spring-ioc-example" />
@@ -98,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.learn.spring.ioc.di.javaConfig.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.spring.ioc.di.javaConfig.Main" />
+    <configuration name="com.learn.spring.bean.lifecycle.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.spring.bean.lifecycle.java.Main" />
       <module name="spring-ioc-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.spring.ioc.di.javaConfig.*" />
+          <option name="PATTERN" value="com.learn.spring.bean.lifecycle.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.learn.spring.ioc.di.setter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.spring.ioc.di.setter.Main" />
+    <configuration name="com.learn.spring.bean.lifecycle.xml.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.spring.bean.lifecycle.xml.Main" />
       <module name="spring-ioc-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.spring.ioc.di.setter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.learn.spring.properties.xml.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.spring.properties.xml.Main" />
-      <module name="spring-ioc-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.spring.properties.xml.*" />
+          <option name="PATTERN" value="com.learn.spring.bean.lifecycle.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.learn.spring.bean.lifecycle.java.Main" />
+        <item itemvalue="Application.com.learn.spring.bean.lifecycle.xml.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrototypeScope" />
         <item itemvalue="Application.SingletonScope" />
-        <item itemvalue="Application.com.learn.spring.properties.xml.Main" />
-        <item itemvalue="Application.com.learn.spring.ioc.di.setter.Main" />
-        <item itemvalue="Application.com.learn.spring.ioc.di.javaConfig.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +175,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/spring/ioc/di/javaConfig/TeslaCar.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/spring/properties/java/CarConfig.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

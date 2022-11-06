@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="engin" class="com.learn.spring.bean.lifecycle.xml.ElectricEngin">
+
+    </bean>
+    <bean id="teslaCar" class="com.learn.spring.bean.lifecycle.xml.TeslaCar"
+          init-method="initCall"
+          destroy-method="destroy"
+    >
+        <property name="engin" ref="engin" />
+        <property name="model" value="S three"/>
+    </bean>
+
+</beans>
